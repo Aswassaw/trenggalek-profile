@@ -137,6 +137,11 @@ footer {
   text-align: center;
   font-weight: bold;
 }
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
 /* End Footer CSS */
 
 /* Media Query */

@@ -12,6 +12,12 @@ body {
   font-family: "Noto Sans", Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f9f9;
+}
+
+body.dark-theme {
+  background-color: #222831;
+  color: white;
 }
 
 /* Header CSS */
@@ -121,7 +127,8 @@ td {
 }
 
 aside table th {
-  background-color: rgb(238, 236, 236);
+  background-color: #f6f6f6;
+  color: black;
 }
 
 #profile header {
@@ -139,8 +146,32 @@ footer {
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+
+.dark-mode {
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.dark-mode:hover {
+  padding: 9px;
+}
+
+.dark-mode.light-button {
+  background-color: #dad9e0;
+  color: black;
+}
+
+.dark-mode.dark-button {
+  background-color: #242635;
+  color: white;
 }
 /* End Footer CSS */
 
